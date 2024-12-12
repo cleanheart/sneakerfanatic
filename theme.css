@@ -98,7 +98,9 @@ header {
     --color-foreground: 21, 24, 32;
     --color-background: 255, 255, 255;
 }
-
+.product-page-header-top{
+    --color-accent: 243, 106, 7;
+}
 .header-top {
     --color-accent: 243, 106, 7;
     --color-heading: 18, 17, 17;
