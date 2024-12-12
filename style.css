@@ -201,7 +201,6 @@ header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background:rgb(var(--color-accent)) ;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;

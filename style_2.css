@@ -10,13 +10,19 @@ body {
 .product-page-header {
     background: rgb(var(--color-accent));
     border-top: 1px solid rgb(var(--color-background)) ;
+    top: 69px;
 
 }
-
+.product-page-header.sticky{
+    top: -0px;
+}
+.product-page-header-top{
+    background:rgb(var(--color-accent)) ;
+}
 /************** header section end ***************/
 /************** ticker-slider section start ***************/
 .product-ticker{
-    margin-top: 150px;
+    margin-top: 160px;
 }
 .ticker-section-wrapper {
     margin-top: -50px;
