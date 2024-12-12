@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneakerfanatic</title>
+
+    <style>
+        /********* google font  **********/
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+        /******** Custom Font ****************/
+        @font-face {
+            font-family: "OwnersNarrowBold";
+            src: url("font/owners-narrow-bold.woff2") format("woff2"), url("../fonts/owners-narrow-bold.woff") format("woff"), url("../fonts/owners-narrow-bold.ttf") format("truetype");
+            /* font-weight: normal; */
+            font-style: normal;
+        }
+
+        :root {
+            --font-body-family: "Poppins", sans-serif;
+            --font-body-style: normal;
+            --font-body-weight: 400;
+            --font-body-scale: 1;
+
+            --font-heading-family: "OwnersNarrowBold", Arial, sans-serif;
+            --font-heading-style: normal;
+            --font-heading-weight: 700;
+            --font-heading-scale: 1;
+            --page-width: 132rem;
+        }
+    </style>
+
+    <link rel="stylesheet" href="bootstrap-grid.css">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="theme.css">
+    <link rel="stylesheet" href="style.css">
+
+
+    <!--google font-->
+
+
+
+</head>
+
+<body>
+
+    <!-- header section start -->
+    <header>
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="header-nav">
+                    <a class="header-logo" href="#">Engraving Pen</a>
+                    <ul class="nav">
+                        <li><a href="single_Product.html">home</a></li>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">shop</a></li>
+                        <li><a href="#">support</a></li>
+                    </ul>
+                    <div class="user-cart">
+                        <a href="#"><img src="images/user.svg" alt="icon"></a>
+                        <a href="#"><img src="images/cart.svg" alt="icon"></a>
+                    </div>
+                    <div class="user-cart-2">
+                        <a href="#"> <img src="images/user-black.svg" alt="icon"> </a>
+                        <a href="#"> <img src="images/cart-black.svg" alt="icon"> </a>
+                    </div>
+                    <div class="mobile-menu-icon mobile-btn menuIcon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="header-top">
+        <span class="icon">
+            <img src="images/star.svg" alt="icon">
+        </span>
+        <a href="#">Get 25% instant today to login and buy any product!</a>
+        <span class="icon">
+            <img src="images/star.svg" alt="icon">
+        </span>
+    </div>
+    <!-- header section end -->
+
+
+    <!-- Mobile-menu start -->
+    <div class="mobile-menu">
+        <div class="top">
+            <div class="mobile-logo">
+                <a href="#"> Engraving Pen</a>
+            </div>
+            <div class="mobile-menu-icon mobile-btn menuIcon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <ul class="mobile-nav">
+            <li>
+                <a href="#">home </a>
+            </li>
+            <li>
+                <a href="#">about </a>
+            </li>
+            <li>
+                <a href="#">shop </a>
+            </li>
+            <li>
+                <a href="#">support </a>
+            </li>
+        </ul>
+        <form action="#">
+            <input type="search" placeholder="search...">
+            <a class="button button--primary" href="#">go</a>
+        </form>
+    </div>
+    <!-- Mobile-menu End -->
+
+
+    <!-- Hero Section Start -->
+    <section class="hero-area overflow-hidden">
+        <img src="images/hero-bg-shape.svg" alt="" class="hero-bg-shape">
+        <img class="hero-bg-1" src="images/hero-bg.png" alt="hero-bg">
+        <div class="hero-left-img">
+            <img class="img-1 wow fadeInUp" src="images/hero-left-final-1.png" alt="img">
+            <img class="img-2 wow fadeInUp" data-wow-delay="0.2s" src="images/hero-left-final-2.png" alt="img">
+            <img class="img-3 wow fadeInUp" data-wow-delay="0.3s" src="images/hero-left-final-3.png" alt="img">
+        </div>
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="left-img-wrapper"></div>
+                <div class="hero-right-wrapper">
+                    <div class="hero-title-wrapper">
+                        <h1 class="fst-title mb-0 mt-0 white-color wow fadeInUp">
+                            discover the orig <span class="pen"> <img src="images/pen-1.png" alt=""></span>nal
+                        </h1>
+                        <h1 class="title-2 wow fadeInUp" data-wow-delay="0.2s">
+                            engraving pen
+                        </h1>
+                    </div>
+
+                    <div class="hero-prize-wrapper wow fadeInUp" data-wow-delay="0.3s">
+                        <h4 class="prize-1 mbt-0">
+                            was £80.86 <span class="border-eight"></span>
+                            <span class="white-color">now</span>
+                        </h4>
+                        <h3 class="prize-2 mbt-0">£44.47</h3>
+                    </div>
+                    <div class="hero-text-icon wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="inner">
+                            <div class="icon">
+                                <img src="images/pen.svg" alt="">
+                            </div>
+                            <p>Simple to Use, Ideal for Beginners</p>
+                        </div>
+                        <div class="inner hide-inner">
+                            <div class="icon">
+                                <img src="images/pen.svg" alt="">
+                            </div>
+                            <p>Relaxing and Fun to Use</p>
+                        </div>
+                        <div class="inner hide-inner">
+                            <div class="icon">
+                                <img src="images/pen.svg" alt="">
+                            </div>
+                            <p>Personalize Ordinary Items with Ease</p>
+                        </div>
+                        <div class="inner last-inner">
+                            <div class="icon">
+                                <img src="images/pen.svg" alt="">
+                            </div>
+                            <p>Engrave Wood, Glass, Metal, Stone & More</p>
+                        </div>
+                        <a class="button button--secondary" href="#">buy now </a>
+                    </div>
+
+                    <img class="main-pen wow fadeInUp" data-wow-delay="0.5s" src="images/pen-3.png" alt="re">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero section end-->
+
+    <!--category section start-->
+    <section class="category-section  overflow-hidden">
+        <div class="container-1400">
+            <div class="row align-items-center g-4">
+                <div class="col-xl-9">
+                    <div class="section-title text-center text-xl-start">
+                        <h2 class="mb-0 ct-title">Engrave on any <span class="secondery-color">surface</span></h2>
+                    </div>
+                </div>
+                <div class="col-xl-3">
+                    <div class="text-end button-1">
+                        <a href="#" class="button button--primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ct-item-slider swiper">
+            <div class="swiper-wrapper">
+                <a href="#" class="ct-single-item swiper-slide">
+                    <img src="images/ct-2.png" alt="ct image" class="img-fluid ct-thumbnail">
+                    <span class="ct-overlay-primary"></span>
+                    <span class="ct-overlay-dark"></span>
+                    <h4>Wood</h4>
+                    <p class="mb-0">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                        non felis.
+                    </p>
+                </a>
+                <a href="#" class="ct-single-item swiper-slide">
+                    <img src="images/ct-3.png" alt="ct image" class="img-fluid ct-thumbnail">
+                    <span class="ct-overlay-primary"></span>
+                    <span class="ct-overlay-dark"></span>
+                    <h4>Glass</h4>
+                    <p class="mb-0">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                        non felis.
+                    </p>
+                </a>
+                <a href="#" class="ct-single-item swiper-slide">
+                    <img src="images/ct-1.jpg" alt="ct image" class="img-fluid ct-thumbnail">
+                    <span class="ct-overlay-primary"></span>
+                    <span class="ct-overlay-dark"></span>
+                    <h4>Stone</h4>
+                    <p class="mb-0">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                        non felis.
+                    </p>
+                </a>
+                <a href="#" class="ct-single-item swiper-slide">
+                    <img src="images/ct-4.png" alt="ct image" class="img-fluid ct-thumbnail">
+                    <span class="ct-overlay-primary"></span>
+                    <span class="ct-overlay-dark"></span>
+                    <h4>Metal</h4>
+                    <p class="mb-0">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                        non felis.
+                    </p>
+                </a>
+                <a href="#" class="ct-single-item swiper-slide">
+                    <img src="images/ct-3.png" alt="ct image" class="img-fluid ct-thumbnail">
+                    <span class="ct-overlay-primary"></span>
+                    <span class="ct-overlay-dark"></span>
+                    <h4>Glass</h4>
+                    <p class="mb-0">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                        non felis.
+                    </p>
+                </a>
+                <a href="#" class="ct-single-item swiper-slide">
+                    <img src="images/ct-4.png" alt="ct image" class="img-fluid ct-thumbnail">
+                    <span class="ct-overlay-primary"></span>
+                    <span class="ct-overlay-dark"></span>
+                    <h4>Glass</h4>
+                    <p class="mb-0">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                        non felis.
+                    </p>
+                </a>
+            </div>
+        </div>
+        <div class="ct-mobile-view">
+            <a href="#" class="ct-single-item ">
+                <img src="images/ct-2.png" alt="ct image" class="img-fluid ct-thumbnail">
+                <span class="ct-overlay-primary"></span>
+                <span class="ct-overlay-dark"></span>
+                <h4>Wood</h4>
+                <p class="mb-0">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                    non felis.
+                </p>
+            </a>
+            <a href="#" class="ct-single-item ">
+                <img src="images/ct-1.jpg" alt="ct image" class="img-fluid ct-thumbnail">
+                <span class="ct-overlay-primary"></span>
+                <span class="ct-overlay-dark"></span>
+                <h4>Glass</h4>
+                <p class="mb-0">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                    non felis.
+                </p>
+            </a>
+            <a href="#" class="ct-single-item ">
+                <img src="images/ct-3.png" alt="ct image" class="img-fluid ct-thumbnail">
+                <span class="ct-overlay-primary"></span>
+                <span class="ct-overlay-dark"></span>
+                <h4>Stone</h4>
+                <p class="mb-0">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                    non felis.
+                </p>
+            </a>
+            <a href="#" class="ct-single-item ">
+                <img src="images/ct-4.png" alt="ct image" class="img-fluid ct-thumbnail">
+                <span class="ct-overlay-primary"></span>
+                <span class="ct-overlay-dark"></span>
+                <h4>Metal</h4>
+                <p class="mb-0">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+                    non felis.
+                </p>
+            </a>
+        </div>
+        <div class=" button-2 mt-5">
+            <a href="#" class="button button--primary">Buy Now</a>
+        </div>
+    </section>
+    <!--category section end-->
+
+    <!--  Ticker section start -->
+    <section class="product-1st ticker">
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="product-ticker-wrapper">
+                    <div class="product-ticker-inner">
+                        <img class="ticker-kolom-before ticker-icon" src="images/safe.svg" alt="">
+                        <h5 class="mt-0 ticker-main-content">1 Year Warranty</h5>
+                        <img class="ticker-kolom-after" src="images/kolom-after.svg" alt="">
+                    </div>
+                    <div class="product-ticker-inner">
+                        <img class="ticker-kolom-before ticker-icon" src="images/delivery.svg" alt="">
+                        <h5 class="mt-0 ticker-main-content">Free Next Day Delivery</h5>
+                        <img class="ticker-kolom-after" src="images/kolom-after.svg" alt="">
+                    </div>
+                    <div class="product-ticker-inner">
+                        <img class="ticker-kolom-before ticker-icon" src="images/award3.svg" alt="">
+                        <h5 class="mt-0 ticker-main-content">UK’s #1 Engraving Pen</h5>
+                        <img class="ticker-kolom-after" src="images/kolom-after.svg" alt="">
+                    </div>
+                    <div class="product-ticker-inner">
+                        <img class="ticker-kolom-before ticker-icon" src="images/feedback.svg" alt="">
+                        <h5 class="mt-0 ticker-main-content">500K Happy Customers</h5>
+                        <img class="ticker-kolom-after" src="images/kolom-after.svg" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--  Ticker section ENd -->
+
+    <!--feature section start-->
+    <section class="product-features-area overflow-hidden">
+        <img src="images/pf-bg.jpg" alt="pf-bg" class="pf-bg-shape">
+        <div class="container-1400">
+            <div class="row align-items-center justify-cotent-between g-4">
+                <div class="col-xl-12 mt-0">
+                    <div class="section-title-wrapper ">
+                        <h2 class="mb-0 section-title text-uppercase text-white text-center text-xl-start ">
+                            Product Features
+                        </h2>
+                        <a class="button button--secondary d-flex d-xl-none" href="#">buy now</a>
+                    </div>
+                </div>
+                <div class="col-xl-4">
+                    <div class="pf-section-btn text-end d-none d-xl-block">
+                        <a class="template-btn white-btn btn-shadow" href="#">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="pf-features-box-wrapper">
+                <div class="row align-items-center g-3">
+                    <div class="col-xl-3">
+                        <div class="pf-feature-card-wrapper">
+                            <div class="pf-feature-card">
+                                <h4>Get Cool Results easily</h4>
+                            </div>
+                            <div class="pf-feature-card">
+                                <h4>Unleash your creativity</h4>
+                            </div>
+                            <div class="pf-feature-card">
+                                <h4>Engraving Made for Anyone</h4>
+                            </div>
+                            <div class="pf-feature-card">
+                                <h4>Engraving Made for Anyone</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                        <div class="pf-feature-pencil">
+                            <img src="images/pencil.png" alt="pencil" class="pf-feature-pencil">
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="pf-feature-card-wrapper">
+                            <div class="pf-feature-card dot-left">
+                                <h4>More than 200,000 crafters</h4>
+                            </div>
+                            <div class="pf-feature-card dot-left">
+                                <h4>Detailed Results on 50+ Surfaces</h4>
+                            </div>
+                            <div class="pf-feature-card dot-left">
+                                <h4>Let Your Creations Speak Volumes</h4>
+                            </div>
+                            <div class="pf-feature-card dot-left">
+                                <h4>Let Your Creations Speak Volumes</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pf-features-box-2">
+                <div class="left-content">
+                    <div class="inner">
+                        <span class="circle">
+                            <div class="main-circle"></div>
+                        </span>
+                        <p class="mb-0">Get cool results easily</p>
+                    </div>
+                    <div class="inner">
+                        <span class="circle">
+                            <div class="main-circle"></div>
+                        </span>
+                        <p class="mb-0">Unleash your creativity</p>
+                    </div>
+                    <div class="inner">
+                        <span class="circle">
+                            <div class="main-circle"></div>
+                        </span>
+                        <p class="mb-0">Engraving Made for Anyone</p>
+                    </div>
+                    <div class="inner">
+                        <span class="circle">
+                            <div class="main-circle"></div>
+                        </span>
+                        <p class="mb-0">More than
+                            200k crafters</p>
+                    </div>
+                </div>
+                <div class="img-wrapper">
+                    <img src="images/product-eture-kolom.svg" alt="">
+                </div>
+                <div class="right-content">
+                    <div class="inner">
+                        <span class="circle">
+                            <div class="main-circle"></div>
+                        </span>
+                        <p class="mb-0">Detailed Results on 50+</p>
+                    </div>
+                    <div class="inner">
+                        <span class="circle">
+                            <div class="main-circle"></div>
+                        </span>
+                        <p class="mb-0">Let Your Creations Speak </p>
+                    </div>
+                    <div class="inner">
+                        <span class="circle">
+                            <div class="main-circle"></div>
+                        </span>
+                        <p class="mb-0">Unleash your creativity</p>
+                    </div>
+                    <div class="inner">
+                        <span class="circle">
+                            <div class="main-circle"></div>
+                        </span>
+                        <p class="mb-0">Get cool results easily</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--feature section end-->
+
+    <!--Ticker Section Start-->
+
+    <div class="ticker-section-wrapper overflow-hidden">
+        <div class="ticker-section">
+            <div class="ticker-wrapper ticker-slider-wrapper">
+                <div class="ticker-content swiper-wrapper">
+                    <span class="ticker-primary swiper-slide">UK's Leading #1</span>
+                    <span class="ticker-secondary swiper-slide">Engraving Pen”</span>
+                    <span class="ticker-primary swiper-slide">UK's Leading #1</span>
+                    <span class="ticker-secondary swiper-slide">Engraving Pen”</span>
+                    <span class="ticker-primary swiper-slide">UK's Leading #1</span>
+                    <span class="ticker-secondary swiper-slide">Engraving Pen”</span>
+                    <span class="ticker-primary swiper-slide">UK's Leading #1</span>
+                    <span class="ticker-secondary swiper-slide">Engraving Pen”</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Ticker Section End-->
+
+    <!-- User Manual start-->
+    <section class="user-manual">
+        <img src="images/user-manual.svg" alt="" class="usermanual-bg">
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="section-title text-center">
+                    <h2>
+                        What's inside <span class="secondery-color">the box</span>
+                    </h2>
+                </div>
+
+                <div class="img-wrapper">
+                    <img class="manual-1" src="images/user-manual-main.png" alt="">
+                    <img class="manual-2 " src="images/user-manual-2.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- User Manual end-->
+
+    <!--Trial Section Start-->
+
+    <section class="trial-skew">
+        <div class="trial-section">
+            <div class="trial-content-wrapper">
+                <div class="container">
+                    <div class="trail-content d-flex align-items-center justify-content-center flex-wrap">
+                        <div class="trail-content-thumb">
+                            <img src="images/trial-text.svg" alt="">
+                        </div>
+                        <div class="trail-content-title  ">
+                            <h2>
+                                Day Risk-Free Trial <br>
+                                <span> Engraving pen! </span>
+                            </h2>
+                            <div class="trail-content-btn ">
+                                <a href="#" class="button button--primary">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Trial Section End-->
+    <!--htw Section Start-->
+    <section class="htw-section hm_htw">
+        <img src="images/htw-bg.png" alt="" class="htw-bg">
+        <img src="images/htw-shape.png" alt="" class="htw-shape wow animate__animated animate__flipInX infinite">
+        <div class="container-1400">
+            <div class="htw-top ">
+                <div class="htw-title wow fadeInUp">
+                    <h2 class="mb-0">How it works</h2>
+                </div>
+                <div class="htw-btn">
+                    <a href="#" class="button button--secondary wow fadeInUp" data-wow-delay="0.3s">Buy Now</a>
+                </div>
+            </div>
+            <div class="htw-slider swiper">
+                <div class="swiper-wrapper">
+                    <div class="htw-card wow fadeInUp swiper-slide">
+                        <div class="htw-thumb">
+                            <img src="images/htw-card-01.png" alt="">
+                            <span class="htw-step">STEP 1</span>
+                        </div>
+                        <div class="htw-content wow fadeInUp">
+                            <h3>POP IN YOUR BIT</h3>
+                            <p>Loosen, insert, and tighten—it's that easy!</p>
+                        </div>
+                    </div>
+                    <div class="htw-card wow fadeInUp swiper-slide">
+                        <div class="htw-thumb">
+                            <img src="images/htw-card-02.png" alt="">
+                            <span class="htw-step">STEP 2</span>
+                        </div>
+                        <div class="htw-content wow fadeInUp">
+                            <h3>set your speed </h3>
+                            <p>Loosen, insert, and tighten—it's that easy!</p>
+                        </div>
+                    </div>
+                    <div class="htw-card wow fadeInUp swiper-slide">
+                        <div class="htw-thumb">
+                            <img src="images/htw-card-03.png" alt="">
+                            <span class="htw-step">STEP 3</span>
+                        </div>
+                        <div class="htw-content wow fadeInUp">
+                            <h3>get creative!</h3>
+                            <p>Loosen, insert, and tighten—it's that easy!</p>
+                        </div>
+                    </div>
+                    <div class="htw-card wow fadeInUp swiper-slide">
+                        <div class="htw-thumb">
+                            <img src="images/htw-card-01.png" alt="">
+                            <span class="htw-step">STEP 4</span>
+                        </div>
+                        <div class="htw-content wow fadeInUp">
+                            <h3>tarpor ki hobe</h3>
+                            <p>Loosen, insert, and tighten—it's that easy!</p>
+                        </div>
+                    </div>
+                    <div class="htw-card wow fadeInUp swiper-slide">
+                        <div class="htw-thumb">
+                            <img src="images/htw-card-02.png" alt="">
+                            <span class="htw-step">STEP 5</span>
+                        </div>
+                        <div class="htw-content wow fadeInUp">
+                            <h3>ato kichu janina</h3>
+                            <p>Loosen, insert, and tighten—it's that easy!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--htw Section End-->
+    <!-- compare section start -->
+    <section class="compare-area">
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="section-title text-center">
+                    <h2>
+                        Compare with <span class="secondery-color"> other</span>
+                    </h2>
+                </div>
+
+                <div class="table-responsivess">
+                    <div class="compare-table table">
+                        <div class="table-header">
+                            <div class="plan"></div>
+                            <div class="plan egraving">Engraving Pen</div>
+                            <div class="plan other-pen">Other Brand</div>
+                        </div>
+                        <div class="table-body">
+                            <div class="row">
+                                <div class="feature feature-title">Cordless</div>
+                                <div class="feature feature-icon">
+                                    <div class="img-wrapper">
+                                        <img src="images/white-mark.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="feature feature-icon-2">
+                                    <div class="img-wrapper">
+                                        <img src="images/white-cros.svg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="feature feature-title">Just 1.76 oz. (50 gr.)</div>
+                                <div class="feature feature-icon feature-white">
+                                    <div class="img-wrapper">
+                                        <img src="images/white-mark.svg" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="feature feature-icon-2">
+                                    <div class="img-wrapper">
+                                        <img src="images/white-cros.svg" alt="">
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="feature feature-title">Beginner Friendly</div>
+                                <div class="feature feature-icon">
+                                    <div class="img-wrapper">
+                                        <img src="images/white-mark.svg" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="feature feature-icon-2">
+                                    <div class="img-wrapper">
+                                        <img src="images/white-cros.svg" alt="">
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="feature feature-title">Ergonomic Design</div>
+                                <div class="feature feature-icon feature-white">
+                                    <div class="img-wrapper">
+                                        <img src="images/white-mark.svg" alt="">
+                                    </div>
+
+                                </div>
+                                <div class="feature feature-icon-2">
+                                    <div class="img-wrapper">
+                                        <img src="images/white-cros.svg" alt="">
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="feature feature-title">30 FREE Bits</div>
+                                <div class="feature feature-icon">
+                                    <div class="img-wrapper">
+                                        <img src="images/white-mark.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="feature feature-icon-2">
+                                    <div class="img-wrapper">
+                                        <img src="images/white-cros.svg" alt="">
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="feature feature-title">
+                                    FREE Engraving Mastery Guide
+                                </div>
+                                <div class="feature feature-icon feature-white">
+                                    <div class="img-wrapper">
+                                        <img src="images/white-mark.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="feature feature-icon-2">
+                                    <div class="img-wrapper">
+                                        <img src="images/white-cros.svg" alt="">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table-footer">
+                            <div class="reviews-icon">
+                                <img src="images/start-icon.png" alt="">
+                                <p>4.9 (5038 reviews)</p>
+                            </div>
+                            <a class="button button--primary" href="#">buy now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- compare section End -->
+
+    <!-- Clients review start-->
+    <section class="client-area">
+        <img src="images/home-client-bg.png" alt="" class="client-review-bg">
+        <img src="images/review-bg-shape.svg" alt="" class="client-review-bg-shape">
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="client-title">
+                    <h2 class="title white-color text-center">Client Reviews</h2>
+                    <ul class="review">
+                        <li>
+                            <img src="images/start-icon.svg" alt="">
+                            <p class="mb-0">Rated “Excellent” based on 2024 reviews</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="clients-slider-wrapper swiper ">
+                    <div class=" swiper-wrapper clients-slider">
+                        <div class="client-slider-inner swiper-slide">
+                            <h3 class="title d-flex align-items-center g-1">
+                                <img src="images/clients-title-icon.svg" alt="" class="icon">
+                                John Smith
+                            </h3>
+                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper
+                                vestibulum volutpat. Curabitur hendrerit, nulla et mollis porta, elit ante scelerisque
+                                neque, sit amet pulvinar velit magna ac tellus. </p>
+
+                            <div class="reating-wrapper ">
+                                <img src="images/start-icon.svg" alt="">
+                                <span class="point mb-0">4.9/5.0</span>
+                            </div>
+                        </div>
+                        <div class="client-slider-inner swiper-slide">
+                            <h3 class="title d-flex align-items-center g-1">
+                                <img src="images/clients-title-icon.svg" alt="" class="icon">
+                                John Smith
+                            </h3>
+                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper
+                                vestibulum volutpat. Curabitur hendrerit, nulla et mollis porta, elit ante scelerisque
+                                neque, sit amet pulvinar velit magna ac tellus. </p>
+
+                            <div class="reating-wrapper ">
+                                <img src="images/start-icon.svg" alt="">
+
+                                <span class="point mb-0">4.9/5.0</span>
+                            </div>
+                        </div>
+                        <div class="client-slider-inner swiper-slide">
+                            <h3 class="title d-flex align-items-center g-1">
+                                <img src="images/clients-title-icon.svg" alt="" class="icon">
+                                John Smith
+                            </h3>
+                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper
+                                vestibulum volutpat. Curabitur hendrerit, nulla et mollis porta, elit ante scelerisque
+                                neque, sit amet pulvinar velit magna ac tellus. </p>
+
+                            <div class="reating-wrapper d-flex align-items-center">
+                                <img src="images/start-icon.svg" alt="">
+
+                                <span class="point mb-0">4.9/5.0</span>
+                            </div>
+                        </div>
+                        <div class="client-slider-inner swiper-slide">
+                            <h3 class="title d-flex align-items-center g-1">
+                                <img src="images/clients-title-icon.svg" alt="" class="icon">
+                                John Smith
+                            </h3>
+                            <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper
+                                vestibulum volutpat. Curabitur hendrerit, nulla et mollis porta, elit ante scelerisque
+                                neque, sit amet pulvinar velit magna ac tellus. </p>
+
+                            <div class="reating-wrapper d-flex align-items-center">
+                                <img src="images/start-icon.svg" alt="">
+                                <span class="point mb-0">4.9/5.0</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img class="swiper-button-prev" src="images/swiper-prev.svg" alt="">
+
+                <img class="swiper-button-next" src="images/swier-next.svg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- Clients review end-->
+
+    <!--Footer Section Start-->
+    <footer class="footer-section overflow-hidden home-page-footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row g-1 justify-content-center">
+                    <div class="col-xl-4 col-12">
+                        <div class="footer-widget">
+                            <div class="footer-item">
+                                <div class="footer-title">
+                                    <h3>Sign up now and get 10% off</h3>
+                                </div>
+                                <form action="#" class="footer-email d-flex">
+                                    <input type="email" placeholder="Email Id">
+                                    <button type="submit">
+                                        <img src="images/footer-icon.svg" alt="">
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-3 col-sm-4 col-6">
+                        <div class="footer-widget">
+                            <span class="">Info</span>
+                            <ul class="footer-content">
+                                <li><a href="#"> Shop All</a></li>
+                                <li><a href="#"> Build Your Routine</a></li>
+                                <li><a href="#"> Gift Cards</a></li>
+                                <li><a href="#"> Refer and save 25%</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-3 col-sm-4 col-6">
+                        <div class="footer-widget">
+                            <span class="">About</span>
+                            <ul class="footer-content">
+                                <li><a href="#"> Our Story</a></li>
+                                <li><a href="#"> Testing</a></li>
+                                <li><a href="#"> Sourcing</a></li>
+                                <li><a href="#"> Partnership</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-3 col-sm-4 col-6">
+                        <div class="footer-widget">
+                            <span class="">Help</span>
+                            <ul class="footer-content">
+                                <li><a href="#"> Contact Us</a></li>
+                                <li><a href="#"> FAQs</a></li>
+                                <li><a href="#"> Shipping & Returns</a></li>
+                                <li><a href="#"> Terms & Conditions</a></li>
+                                <li><a href="#"> Privacy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-md-3 col-sm-4 col-6">
+                        <div class="footer-widget">
+                            <span class="">Contact</span>
+                            <ul class="footer-content">
+                                <li><a href="tel:08001234567">0800 123 4567</a></li>
+                                <li>
+                                    <a href="mailto:info@engravingpen.uk">info@engravingpen.uk</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom ">
+            <img src="images/footer-bottom-bg.png" alt="" class="footer-bottom-bg">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="footer-bottom-copyright">
+                                <p>
+                                    © 2024 <a href="index.html">Baby Therapy</a>. All Rights
+                                    Reserved.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="footer-widget">
+                                <div class="footer-logo d-flex justify-content-end">
+                                    <div class="footer-thumb">
+                                        <img src="images/footer-amazon.png" alt="footer-logo">
+                                    </div>
+                                    <div class="footer-thumb">
+                                        <img src="images/footer-apple.png" alt="footer-logo">
+                                    </div>
+                                    <div class="footer-thumb">
+                                        <img src="images/circle-image.png" alt="footer-logo">
+                                    </div>
+                                    <div class="footer-thumb">
+                                        <img src="images/footer-pay.png" alt="footer-logo">
+                                    </div>
+                                    <div class="footer-thumb">
+                                        <img src="images/footer-shop.png" alt="footer-logo">
+                                    </div>
+                                    <div class="footer-thumb">
+                                        <img src="images/footer-visa.png" alt="footer-logo">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="footer-widget text-end">
+                                <ul class="footer-privacy d-flex justify-content-end">
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="#">Terms &amp; Condition</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Footer Section End-->
+
+
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="swiper-bundle.min.js"></script>
+    <script src="wow.js"></script>
+    <script src="theme.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

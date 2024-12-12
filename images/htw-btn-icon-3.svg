@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65.185" height="65.184" viewBox="0 0 65.185 65.184">
+  <defs>
+    <filter id="Union_5" x="0" y="0" width="65.185" height="65.184" filterUnits="userSpaceOnUse">
+      <feOffset dx="2" dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.259"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_745" data-name="Group 745" transform="translate(-510.908 -1591.607)">
+    <g transform="matrix(1, 0, 0, 1, 510.91, 1591.61)" filter="url(#Union_5)">
+      <path id="Union_5-2" data-name="Union 5" d="M-3426.665,6908.611l-3.835-3.834h-5.423a6,6,0,0,1-6-6v-5.422l-3.835-3.834a6,6,0,0,1,0-8.485l3.835-3.835v-5.423a6,6,0,0,1,6-6h5.423l3.835-3.835a6,6,0,0,1,8.485,0l3.835,3.835h5.422a6,6,0,0,1,6,6v5.423l3.835,3.835a6,6,0,0,1,0,8.485l-3.835,3.834v5.422a6,6,0,0,1-6,6h-5.422l-3.835,3.834a5.979,5.979,0,0,1-4.242,1.757A5.98,5.98,0,0,1-3426.665,6908.611Z" transform="translate(3453.02 -6854.68)" fill="#fff"/>
+    </g>
+    <text id="step_03" data-name="step
+03" transform="translate(541.5 1623.199)" fill="#151820" font-size="16" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="-18.344" y="0">STEP</tspan><tspan x="-9.203" y="14">03</tspan></text>
+  </g>
+</svg>

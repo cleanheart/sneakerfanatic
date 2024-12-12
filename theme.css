@@ -1,0 +1,253 @@
+.button {
+    padding: 15px 40px;
+    font-size: 22px;
+    font-family: var(--font-heading-family);
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+    overflow: hidden;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    font-weight: 600;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+}
+
+@media (max-width:575px) {
+    .button {
+        padding: 13px 25px;
+        font-size: 18px;
+        font-weight: 500;
+
+    }
+}
+
+.button--primary {
+    background-color: rgb(var(--color-primary-button));
+    color: rgb(var(--color-primary-button-text));
+}
+
+.button--primary::before {
+    content: "";
+    position: absolute;
+    left: -90px;
+    top: -135%;
+    width: 190%;
+    height: 135%;
+    background-color: #000;
+    z-index: -1;
+    border-radius: 50%;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.button--primary:hover {
+    background-color: rgb(var(--color-primary-button-hover));
+}
+
+.button--primary:hover::before {
+    top: -10px;
+}
+
+.button--secondary {
+    background-color: rgb(var(--color-secondary-button));
+    color: rgb(var(--color-secondary-button-text));
+}
+
+.button--secondary::before {
+    content: "";
+    position: absolute;
+    left: -90px;
+    top: -135%;
+    width: 190%;
+    height: 135%;
+    background-color: #000;
+    z-index: -1;
+    border-radius: 50%;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.button--secondary:hover {
+    background-color: rgb(var(--color-secondary-button-hover));
+}
+
+.button--secondary:hover::before {
+    top: -10px;
+}
+
+
+/********header***********/
+header {
+    --color-accent: 243, 106, 7;
+    --color-heading: 18, 17, 17;
+    --color-foreground: 21, 24, 32;
+    --color-background: 255, 255, 255;
+}
+
+.header-top {
+    --color-accent: 243, 106, 7;
+    --color-heading: 18, 17, 17;
+    --color-foreground: 21, 24, 32;
+    --color-background: 255, 255, 255;
+}
+
+.mobile-menu {
+    --color-accent: 243, 106, 7;
+    --color-heading: 18, 17, 17;
+    --color-foreground: 21, 24, 32;
+    --color-background: 255, 255, 255;
+    --color-primary-button: 243, 106, 7;
+    --color-primary-button-text: 255, 255, 255;
+    --color-primary-button-hover: transparent;
+    --color-secondary-button-hover: transparent;
+    --color-secondary-button: 255, 255, 255;
+    --color-secondary-button-text: 243, 106, 7;
+}
+
+.hero-area {
+    --color-background: 18, 17, 17;
+    --color-accent: 194, 52, 0;
+    --color-heading: 255, 255, 255;
+    --color-foreground: 21, 24, 32;
+    --color-primary-button: 243, 106, 7;
+    --color-primary-button-text: 255, 255, 255;
+    --color-primary-button-hover: transparent;
+    --color-secondary-button-hover: transparent;
+    --color-secondary-button: 255, 255, 255;
+    --color-secondary-button-text: 243, 106, 7;
+
+}
+
+.category-section {
+    --color-background: 255, 255, 255;
+    --color-accent: 248, 82, 0;
+    --color-heading: 18, 17, 17;
+    --color-primary-button: 243, 106, 7;
+    --color-primary-button-text: 255, 255, 255;
+    --color-primary-button-hover: transparent;
+    --color-secondary-button-hover: transparent;
+    --color-secondary-button: 255, 255, 255;
+    --color-secondary-button-text: 243, 106, 7;
+
+}
+
+.product-features-area {
+    --color-accent: 21, 24, 32;
+    --color-heading: 255, 255, 255;
+    --color-primary-button: 243, 106, 7;
+    --color-primary-button-text: 255, 255, 255;
+    --color-primary-button-hover: transparent;
+    --color-secondary-button-hover: transparent;
+    --color-secondary-button: 255, 255, 255;
+    --color-secondary-button-text: 243, 106, 7;
+
+}
+
+.ticker-section-wrapper {
+    --color-background: 248, 202, 54;
+    --color-accent: 243, 106, 7;
+    --color-heading: 18, 17, 17;
+}
+
+.user-manual {
+    --color-accent: 243, 106, 7;
+    --color-heading: 18, 17, 17;
+}
+
+.trial-skew {
+    --color-primary-button: 243, 106, 7;
+    --color-primary-button-text: 255, 255, 255;
+    --color-primary-button-hover: transparent;
+    --color-accent: 243, 106, 7;
+    --color-heading: 18, 17, 17;
+    --color-background: 248, 202, 54;
+
+}
+
+.htw-section {
+    --color-secondary-button-hover: transparent;
+    --color-secondary-button: 255, 255, 255;
+    --color-secondary-button-text: 243, 106, 7;
+    --color-heading: 18, 17, 17;
+    --color-background: 255, 255, 255;
+    --color-accent: 243, 106, 7;
+}
+
+.compare-area {
+    --color-primary-button: 243, 106, 7;
+    --color-primary-button-text: 255, 255, 255;
+    --color-primary-button-hover: transparent;
+    --color-accent: 243, 106, 7;
+    --color-background: 255, 255, 255;
+
+
+}
+
+.client-area {
+    --color-heading: 18, 17, 17;
+    --color-background: 255, 255, 255;
+    --color-accent: 248, 202, 54;
+
+}
+
+footer {
+    --color-heading: 18, 17, 17;
+    --color-background: 255, 230, 216;
+    --color-accent: 243, 106, 7;
+
+}
+
+.design-section {
+    --color-primary-button: 243, 106, 7;
+    --color-primary-button-text: 255, 255, 255;
+    --color-primary-button-hover: transparent;
+}
+
+/***********  Product page start **************/
+
+
+/* .hero-banner{
+    --color-background: 
+    --gradient-background:
+    --color-accent: #f36a07
+    --color-foreground:
+    --color-heading: #121111 
+    --color-shadow: 
+    --color-primary-button: 
+    --color-primary-button-text:
+    --color-primary-button-hover: 
+    --color-primary-button-hover-text: 
+    --color-primary-button-outline:
+    --color-primary-button-outline-hover: 
+    --color-secondary-button: 
+    --color-secondary-button-text:
+    --color-secondary-button-hover:
+    --color-secondary-button-hover-text: 
+    --color-secondary-button-outline: 
+    --color-secondary-button-outline-hover: 
+    --color-link: 
+    --color-input:
+    --color-border: 
+    --color-input-outline: 
+    --color-placeholder: 
+    --color-badge-foreground: 
+    --color-badge-background: 
+    --color-badge-border: 
+    --payment-terms-background-color: 
+}
+ */
