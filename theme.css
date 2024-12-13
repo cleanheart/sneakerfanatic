@@ -221,13 +221,29 @@ footer {
 }
 
 /***********  Product page start **************/
+.sc-user-manual {
+    --color-primary-button: 243, 106, 7;
+    --color-primary-button-text: 255, 255, 255;
+    --color-primary-button-hover: transparent;
+    --color-background:255, 255, 255;
+    --color-heading: 21, 24, 32;
+    --color-foreground:248, 202, 54;
 
+    
+}
+.week-section{
+    --color-background:255, 255, 255;
+    --color-heading: 21, 24, 32;
+    --color-secondary-button-hover: transparent;
+    --color-secondary-button: 255, 255, 255;
+    --color-secondary-button-text: 243, 106, 7;
+}
 
 /* .hero-banner{
     --color-background: 
     --gradient-background:
     --color-accent: #f36a07
-    --color-foreground:
+    --color-foreground:#F8CA36
     --color-heading: #121111 
     --color-shadow: 
     --color-primary-button: 

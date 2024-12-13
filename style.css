@@ -511,7 +511,7 @@ header .header-nav .mobile-menu-icon.active span:nth-child(3) {
     max-width: 100%;
     padding: 0;
     background-color: rgb(var(--color-background));
-    padding: 0 10px;
+    padding: 0 10px 0 10px;
 }
 
 .sticky .container .content-wrapper {
@@ -2438,11 +2438,9 @@ header .header-nav .mobile-menu-icon.active span:nth-child(3) {
 /******* compar esection start ***********/
 .compare-area {
     padding: 70px 0;
-    background: #f5f3f0;
 }
 
 .compare-title {
-    font-size: 80px;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 3px;
@@ -2460,6 +2458,7 @@ header .header-nav .mobile-menu-icon.active span:nth-child(3) {
     padding: 0 12px;
     margin: 0 auto;
     margin-top: 50px;
+    
 }
 
 .compare-table .table-header {
@@ -2752,8 +2751,6 @@ header .header-nav .mobile-menu-icon.active span:nth-child(3) {
 
 @media (max-width: 575.98px) {
     .table-footer .button {
-        width: 95px;
-        height: 35px;
         font-size: 15px;
         font-weight: 500;
     }
@@ -2821,8 +2818,8 @@ header .header-nav .mobile-menu-icon.active span:nth-child(3) {
 }
 
 @media (max-width: 767.98px) {
-    .container {
-        padding: 0 0 0 10px;
+    .client-area .container {
+        padding: 0 0px 0 10px;
     }
 }
 
